@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Radio Button!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <section>
+        <!-- Question -->
+        <div id="vwg-question">
+            <p>Question</p>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt expedita ab porro labore. Praesentium, dolor perspiciatis. Vero delectus omnis rem sint, tempore excepturi eligendi cum perspiciatis perferendis at voluptatibus aliquid?
+                <b>SELECT BELOW</b>
+            </p>
+        </div>
+
+        <!-- Radio buttons -->
+        <div>
+            <!-- Radio Button 1 -->
+            <div class="vwg-option opt--radio1">
+                <div class="vwg-radBorder border--rad1">
+                    <div class="vwg-radSelect select--rad1"></div>
+                </div>
+                <span></span>
+            </div>
+
+            <!-- Radio Button 2 -->
+            <div class="vwg-option opt--radio2">
+                <div class="vwg-radBorder border--rad2">
+                    <div class="vwg-radSelect select--rad2"></div>
+                </div>
+                <span></span>
+            </div>
+
+            <!-- Radio Button 3 -->
+            <div class="vwg-option opt--radio3">
+                <div class="vwg-radBorder border--radio3">
+                    <div class="vwg-radSelect select--rad3"></div>
+                </div>
+                <span></span>
+            </div>
+
+            <!-- Radio Button 4 -->
+            <div class="vwg-option opt--radio4">
+                <div class="vwg-radBorder border--radio4">
+                    <div class="vwg-radSelect select--rad4"></div>
+                </div>
+                <span></span>
+            </div>
+        </div>
+    </section>
+</body>
+    <script>
+       $(".vwg-option").click(function(){
+            $(".vwg-radSelect").css("background-color", "white" ); //reset
+            $(this).find('.vwg-radSelect').css("background-color", "#0d7dfa" );
+        });
+    </script>
+</html>

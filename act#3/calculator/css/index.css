@@ -1,0 +1,77 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#calc
+{
+    /* background-color: tomato; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 257px;
+}
+#vwg-screenUI
+{
+    /* background-color: purple; */
+    height: 100px;
+    border-radius:10px 10px 0px 0px;
+    border: 1px solid #dfe1e5;   
+}
+#vwg-history
+{
+    height: 50%;
+}
+#vwg-historyText, #vwg-current
+{
+    float: right;
+}
+#vwg-present
+{
+    height: 50%;
+}
+#vwg-operate
+{
+    border-radius:0px 0px 10px 10px;
+    border: 1px solid #dfe1e5;
+    border-top: 0px;
+}
+.vwg-operationBtn
+{
+    display: block;
+}
+.vwg-operationBtn div
+{
+    display: inline-block;
+}
+button
+{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+#vwg-clear
+{
+    padding:0px;
+    margin-left: 52.5%;
+}
+#vwg-backspace
+{
+    font-size: 15px;
+}
+.vwg-num
+{
+    background-color: #f1f3f4;
+    border: 2px solid #f1f3f4 ;
+    border-radius: 4px;
+}
+.vwg-operation
+{
+    background-color: #dfe1e5;
+    border: 2px solid #dfe1e5;
+}
+#equalBtn
+{
+    background-color: #4285f4;
+    border: 2px solid #4285f4;
+    color: wheat;
+}

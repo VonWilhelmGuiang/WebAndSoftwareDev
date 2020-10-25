@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#vwg-question p:nth-child(1){
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px 15px;
+}
+#vwg-question p:nth-child(2){
+    padding: 0px 15px;
+}
+.vwg-option{
+    border: 1px solid #e7e9ec;
+    margin: 10px 15px;
+    padding: 15px;
+}
+.vwg-radBorder{
+    border-radius: 100%;
+    border: 2px solid #d6dce6;
+    display: inline-block;
+    margin-right:5px ;
+}   
+.vwg-radSelect{
+    margin: 2px;
+    padding: 4px;
+    border-radius: 100%;
+}
+.vwg-radBorder + span{
+    display: inline-block;
+}
+    /* option 1 */
+    .opt--radio1 > span:after{
+        content: "Azure Policy";
+    }
+
+    /* option 2 */
+    .opt--radio2 > span:after{
+        content: "Azure Active Directory";
+    }
+    /* option 3 */
+    .opt--radio3 > span:after{
+        content: "Azure role-based Access Control";
+    }
+    /* option 4 */
+    .opt--radio4 > span:after{
+        content: "Azure Resource Manager Locks";
+    }
