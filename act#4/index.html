@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Activity #4</title>
+</head>
+<body>
+    <!-- btn for popup -->
+    <section id="startQuiz">
+        <div>
+            <p>Click the button below to start quiz.</p>
+            <button id="startBtn">Start now!</button>
+        </div>
+    </section>
+    <!-- popup -->
+    <section id="modal">
+        <div id="modalcont">
+            <button id="closeBtn">X</button>
+            <h3 id="questionNum"></h3>
+            <span id="question"></span>
+            <!-- Ready radio buttons -->
+            <div>
+                <!-- Radio Button 1 -->
+                <div class="vwg-option opt--radio1">
+                    <div class="vwg-radBorder border--rad1">
+                        <div class="vwg-radSelect select--rad1"></div>
+                    </div>
+                    <span class="opt"></span>
+                </div>
+                <!-- Radio Button 2 -->
+                <div class="vwg-option opt--radio2">
+                    <div class="vwg-radBorder border--rad2">
+                        <div class="vwg-radSelect select--rad2"></div>
+                    </div>
+                    <span class="opt"></span>
+                </div>
+                <!-- Radio Button 3 -->
+                <div class="vwg-option opt--radio3">
+                    <div class="vwg-radBorder border--radio3">
+                        <div class="vwg-radSelect select--rad3"></div>
+                    </div>
+                    <span class="opt"></span>
+                </div>
+                <!-- Radio Button 4 -->
+                <div class="vwg-option opt--radio4">
+                    <div class="vwg-radBorder border--radio4">
+                        <div class="vwg-radSelect select--rad4"></div>
+                    </div>
+                    <span class="opt"></span>
+                </div>
+            </div>
+            <div id="nxtPrevBtn">
+                <button id="prevBtn">Previous</button>
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./index.js"></script>
+</html>
+

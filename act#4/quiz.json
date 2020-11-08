@@ -1,0 +1,45 @@
+{
+
+    "QandOpt":  [
+        {
+            "question":"What is the world’s longest river called?",
+            "options" : [
+                "The Nile",
+                "London, England",
+                "Australia",
+                "Persephone"]
+        },
+        {
+            "question":"In Greek Mythology, who is the Queen of the Underworld and wife of Hades?",
+            "options" : [
+                "Persephone",
+                "Slytherin",
+                "France",
+                "Mrs. Doubtfire"]
+        },
+        {
+            "question":"What is the rarest blood type?",
+            "options" : [
+                "AB-Negative",
+                "O",
+                "A",
+                "B"]
+        },
+        {
+            "question":"How many bones are there in the human body?",
+            "options" : [
+                "I really dont know",
+                "206",
+                "200",
+                "1000"]
+        },
+        {
+            "question":"What does Na stand for on the periodic table?",
+            "options" : [
+                "Sodium",
+                "Calcium",
+                "Carbonate",
+                "Kamote"]
+        }
+    ]
+}
