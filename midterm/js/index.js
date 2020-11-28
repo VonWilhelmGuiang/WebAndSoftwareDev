@@ -42,6 +42,7 @@ function errorTrap(){
         }
         // email validator
         if (/(.+)@(.+){2,}\.(.+){2,}/.test(reqField[2].value) == false && reqField[2].value != ""){
+            errorCont.style.display = "block";
             sbmtErrField[2].innerHTML = reqFieldLabel[2].textContent;
             sbmtErr[2].innerHTML = signUpStatus.error[1];
             sbmtErrField[2].style.display = "block";
