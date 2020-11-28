@@ -1,0 +1,4 @@
+{
+    "error" : ["This field is required and cannot be left blank.","Your email is not valid."],
+    "success": "You've successfully registered!"
+}

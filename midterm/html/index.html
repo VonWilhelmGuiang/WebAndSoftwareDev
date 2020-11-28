@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/favicon.svg">
+    <title>SiteHost</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>        
+    <!-- icon header -->
+    <div class="createAcc" id="iconHeader">
+        <div id="iconCont">
+            <img src="../img/logo-vertical.svg" alt="icon_header">
+        </div>
+    </div>
+    <!-- error message -->
+    <div id="errorCont">
+        <h4>Form Errors</h4>
+        <strong class="sbmtErrField"></strong>
+        <ul class="sbmtErrUL"><li class="sbmtErr"></li></ul>
+        <strong class="sbmtErrField"></strong>
+        <ul class="sbmtErrUL"><li class="sbmtErr"></li></ul>
+        <strong class="sbmtErrField"></strong>
+        <ul class="sbmtErrUL"><li class="sbmtErr"></li></ul>
+        <strong class="sbmtErrField"></strong>
+        <ul class="sbmtErrUL"><li class="sbmtErr"></li></ul>
+    </div>
+    <!-- form section -->
+    <div class="createAcc" id="formCont">
+        <!-- header -->
+        <div id="formHead">
+            <h1>Create Account</h1>
+        </div>
+        <!-- form -->
+        <div>
+            <form method="GET" id="registerForm">
+                <!-- name -->
+                <div class="acctField">
+                    <div class="nameField">
+                        <label for="frstname" class="reqFieldLabel">FIRST NAME <img src="../img/validation-error.png" class="errorImg"></label>
+                        <input type="text" name="frstname" id="frstname" class="reqField">
+                    </div>
+                    <div class="nameField">
+                        <label for="lstname" class="reqFieldLabel">LAST NAME <img src="../img/validation-error.png" class="errorImg"></label>
+                        <input type="text" name="lstname" id="lstname" class="reqField">
+                    </div>
+                </div>
+                <!-- company -->
+                <div class="acctField">
+                    <label for="compname">COMPANY NAME <i>(optional)</i></label>
+                    <input type="text" name="compname" id="compname">
+                </div>
+                <!-- email -->
+                <div class="acctField">
+                    <label for="email" class="reqFieldLabel">EMAIL ADDRESS <img src="../img/validation-error.png" class="errorImg"></label>
+                    <input type="text" name="email" id="email" class="reqField">
+                </div>
+                <!-- password -->
+                <div class="acctField">
+                    <label for="passwrd" class="reqFieldLabel">PASSWORD <img src="../img/validation-error.png" class="errorImg"></label>
+                    <input type="password" name="passwrd" id="passwrd" class="reqField">
+                </div>
+                <div class="acctField">
+                    <input type="submit" value="Create My Account">
+                </div>
+            </form>
+            <div id="note">
+                <span>By signing up you agree to our <a href="#">Terms & Conditions</a></span>
+                <span>Already have an account? <a href="#">Log In</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/index.js"></script>
+</html>
